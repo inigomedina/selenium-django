@@ -12,7 +12,7 @@ class Auth(SeleniumTestCase):
         # and instantiate the WebDriver, which in turns loads up the browser.
         User.objects.create_superuser(username='admin',
                                       password='pw',
-                                      email='info@lincolnloop.com')
+                                      email='imedina@test.com')
 
         # Instantiating the WebDriver will load your browser
         self.wd = CustomWebDriver()
